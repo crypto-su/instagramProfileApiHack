@@ -1,5 +1,6 @@
 #### instagram ?__a=1 Read Profile
 
+-It also works on a never logged in ip. I sent 10K queries and it didn't give any errors.
 
 #### Php Curl Code
 

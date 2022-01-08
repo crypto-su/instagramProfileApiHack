@@ -8,8 +8,8 @@
 
 function r($username){
 
-	$sid = 'sessionid=51190927748%3A7eFw4JGDAh3BYo%3A1;'; // Your Session ID (Google Crome Cookies)
-	$headerArr = array("Cookie: $sid");
+    $sid = 'sessionid=51190927748%3A7eFw4JGDAh3BYo%3A1;'; // Your Session ID (Google Crome Cookies)
+    $headerArr = array("Cookie: $sid");
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, 'https://www.instagram.com/'.$username.'/channel/?__a=1');
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
